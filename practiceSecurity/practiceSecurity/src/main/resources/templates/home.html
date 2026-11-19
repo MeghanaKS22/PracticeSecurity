@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Home</title>
+</head>
+<body>
+
+<h2>Welcome Home</h2>
+
+<p>Username: <span th:text="${username}"></span></p>
+
+<a th:href="@{/form}">Fill Form</a>
+
+<br><br>
+<a th:href="@{/view}">View Data</a>
+
+</body>
+</html>
